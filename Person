@@ -1,0 +1,18 @@
+package br.com.springframework.test;
+
+
+public class Person {
+	
+	private String name;
+	
+	private String address;
+
+	public void talk() {
+		System.out.println("i said hello!");		
+	}
+	
+	public void bla() {
+		System.out.println("init");
+	}
+
+}
